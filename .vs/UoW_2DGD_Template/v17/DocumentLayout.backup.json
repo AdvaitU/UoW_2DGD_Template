@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Uni of Westminster\\UoW_2DGD_Template\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{84655875-96E8-6BAF-53A3-443A1CAC3B48}|Assembly-CSharp.csproj|d:\\uni of westminster\\uow_2dgd_template\\assets\\scripts\\mechanics\\victoryzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84655875-96E8-6BAF-53A3-443A1CAC3B48}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mechanics\\victoryzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84655875-96E8-6BAF-53A3-443A1CAC3B48}|Assembly-CSharp.csproj|D:\\Uni of Westminster\\UoW_2DGD_Template\\assets\\mod assets\\mod resources\\scripts\\platformer\\platformerjumppad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84655875-96E8-6BAF-53A3-443A1CAC3B48}|Assembly-CSharp.csproj|solutionrelative:assets\\mod assets\\mod resources\\scripts\\platformer\\platformerjumppad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84655875-96E8-6BAF-53A3-443A1CAC3B48}|Assembly-CSharp.csproj|d:\\uni of westminster\\uow_2dgd_template\\assets\\scripts\\ui\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84655875-96E8-6BAF-53A3-443A1CAC3B48}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VictoryZone.cs",
+              "DocumentMoniker": "D:\\Uni of Westminster\\UoW_2DGD_Template\\Assets\\Scripts\\Mechanics\\VictoryZone.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Mechanics\\VictoryZone.cs",
+              "ToolTip": "D:\\Uni of Westminster\\UoW_2DGD_Template\\Assets\\Scripts\\Mechanics\\VictoryZone.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Mechanics\\VictoryZone.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T11:47:47.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "D:\\Uni of Westminster\\UoW_2DGD_Template\\Assets\\Scripts\\UI\\MainMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\MainMenu.cs",
+              "ToolTip": "D:\\Uni of Westminster\\UoW_2DGD_Template\\Assets\\Scripts\\UI\\MainMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\MainMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T11:40:48.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlatformerJumpPad.cs",
+              "DocumentMoniker": "D:\\Uni of Westminster\\UoW_2DGD_Template\\Assets\\Mod Assets\\Mod Resources\\Scripts\\Platformer\\PlatformerJumpPad.cs",
+              "RelativeDocumentMoniker": "Assets\\Mod Assets\\Mod Resources\\Scripts\\Platformer\\PlatformerJumpPad.cs",
+              "ToolTip": "D:\\Uni of Westminster\\UoW_2DGD_Template\\Assets\\Mod Assets\\Mod Resources\\Scripts\\Platformer\\PlatformerJumpPad.cs",
+              "RelativeToolTip": "Assets\\Mod Assets\\Mod Resources\\Scripts\\Platformer\\PlatformerJumpPad.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T13:56:28.41Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
