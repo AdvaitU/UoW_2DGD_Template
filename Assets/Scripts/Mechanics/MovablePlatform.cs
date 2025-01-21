@@ -36,7 +36,10 @@ public class MovablePlatform : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.transform.position.y > transform.position.y && collision.gameObject.tag == "Player") collision.transform.SetParent(transform);
+        if (collision.gameObject.GetComponentInChildren<Transform>().position.y > transform.position.y && 
+            collision.gameObject.tag == "Player") 
+                collision.transform.SetParent(transform);
+        
     }
 
     private void OnCollisionExit2D(Collision2D collision)

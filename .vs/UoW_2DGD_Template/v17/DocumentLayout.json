@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\Uni of Westminster\\UoW_2DGD_Template\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{84655875-96E8-6BAF-53A3-443A1CAC3B48}|Assembly-CSharp.csproj|d:\\uni of westminster\\uow_2dgd_template\\assets\\scripts\\mechanics\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84655875-96E8-6BAF-53A3-443A1CAC3B48}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mechanics\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84655875-96E8-6BAF-53A3-443A1CAC3B48}|Assembly-CSharp.csproj|d:\\uni of westminster\\uow_2dgd_template\\assets\\scripts\\mechanics\\movableplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84655875-96E8-6BAF-53A3-443A1CAC3B48}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mechanics\\movableplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{84655875-96E8-6BAF-53A3-443A1CAC3B48}|Assembly-CSharp.csproj|d:\\uni of westminster\\uow_2dgd_template\\assets\\scripts\\mechanics\\victoryzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84655875-96E8-6BAF-53A3-443A1CAC3B48}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mechanics\\victoryzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,6 +35,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "EnemyController.cs",
+              "DocumentMoniker": "D:\\Uni of Westminster\\UoW_2DGD_Template\\Assets\\Scripts\\Mechanics\\EnemyController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Mechanics\\EnemyController.cs",
+              "ToolTip": "D:\\Uni of Westminster\\UoW_2DGD_Template\\Assets\\Scripts\\Mechanics\\EnemyController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Mechanics\\EnemyController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwCoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T10:47:54.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MovablePlatform.cs",
+              "DocumentMoniker": "D:\\Uni of Westminster\\UoW_2DGD_Template\\Assets\\Scripts\\Mechanics\\MovablePlatform.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Mechanics\\MovablePlatform.cs",
+              "ToolTip": "D:\\Uni of Westminster\\UoW_2DGD_Template\\Assets\\Scripts\\Mechanics\\MovablePlatform.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Mechanics\\MovablePlatform.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T10:38:34.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "VictoryZone.cs",
               "DocumentMoniker": "D:\\Uni of Westminster\\UoW_2DGD_Template\\Assets\\Scripts\\Mechanics\\VictoryZone.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Mechanics\\VictoryZone.cs",
@@ -39,7 +73,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "MainMenu.cs",
               "DocumentMoniker": "D:\\Uni of Westminster\\UoW_2DGD_Template\\Assets\\Scripts\\UI\\MainMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\MainMenu.cs",
@@ -51,7 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "PlatformerJumpPad.cs",
               "DocumentMoniker": "D:\\Uni of Westminster\\UoW_2DGD_Template\\Assets\\Mod Assets\\Mod Resources\\Scripts\\Platformer\\PlatformerJumpPad.cs",
               "RelativeDocumentMoniker": "Assets\\Mod Assets\\Mod Resources\\Scripts\\Platformer\\PlatformerJumpPad.cs",
