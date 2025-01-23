@@ -20,6 +20,7 @@ namespace Platformer.Mechanics
 
 
         public int coinsCollected = 0;
+        public int enemiesKilled = 0;
         /// <summary>
         /// Max horizontal speed of the player.
         /// </summary>

@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "D:\\Uni of Westminster\\UoW_2DGD_Template\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{84655875-96E8-6BAF-53A3-443A1CAC3B48}|Assembly-CSharp.csproj|d:\\uni of westminster\\uow_2dgd_template\\assets\\scripts\\mechanics\\victoryzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84655875-96E8-6BAF-53A3-443A1CAC3B48}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mechanics\\victoryzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{84655875-96E8-6BAF-53A3-443A1CAC3B48}|Assembly-CSharp.csproj|D:\\Uni of Westminster\\UoW_2DGD_Template\\assets\\scripts\\mechanics\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84655875-96E8-6BAF-53A3-443A1CAC3B48}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mechanics\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84655875-96E8-6BAF-53A3-443A1CAC3B48}|Assembly-CSharp.csproj|D:\\Uni of Westminster\\UoW_2DGD_Template\\assets\\mod assets\\mod resources\\scripts\\platformer\\platformerjumppad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84655875-96E8-6BAF-53A3-443A1CAC3B48}|Assembly-CSharp.csproj|solutionrelative:assets\\mod assets\\mod resources\\scripts\\platformer\\platformerjumppad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{84655875-96E8-6BAF-53A3-443A1CAC3B48}|Assembly-CSharp.csproj|d:\\uni of westminster\\uow_2dgd_template\\assets\\countenemies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84655875-96E8-6BAF-53A3-443A1CAC3B48}|Assembly-CSharp.csproj|solutionrelative:assets\\countenemies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84655875-96E8-6BAF-53A3-443A1CAC3B48}|Assembly-CSharp.csproj|D:\\Uni of Westminster\\UoW_2DGD_Template\\assets\\scripts\\ui\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84655875-96E8-6BAF-53A3-443A1CAC3B48}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{84655875-96E8-6BAF-53A3-443A1CAC3B48}|Assembly-CSharp.csproj|d:\\uni of westminster\\uow_2dgd_template\\assets\\scripts\\mechanics\\tokeninstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84655875-96E8-6BAF-53A3-443A1CAC3B48}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mechanics\\tokeninstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84655875-96E8-6BAF-53A3-443A1CAC3B48}|Assembly-CSharp.csproj|D:\\Uni of Westminster\\UoW_2DGD_Template\\assets\\scripts\\mechanics\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84655875-96E8-6BAF-53A3-443A1CAC3B48}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mechanics\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84655875-96E8-6BAF-53A3-443A1CAC3B48}|Assembly-CSharp.csproj|d:\\uni of westminster\\uow_2dgd_template\\assets\\scripts\\ui\\countcoins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84655875-96E8-6BAF-53A3-443A1CAC3B48}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\countcoins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,44 +30,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "VictoryZone.cs",
-              "DocumentMoniker": "D:\\Uni of Westminster\\UoW_2DGD_Template\\Assets\\Scripts\\Mechanics\\VictoryZone.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Mechanics\\VictoryZone.cs",
-              "ToolTip": "D:\\Uni of Westminster\\UoW_2DGD_Template\\Assets\\Scripts\\Mechanics\\VictoryZone.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Mechanics\\VictoryZone.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAANAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "TokenInstance.cs",
+              "DocumentMoniker": "D:\\Uni of Westminster\\UoW_2DGD_Template\\Assets\\Scripts\\Mechanics\\TokenInstance.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Mechanics\\TokenInstance.cs",
+              "ToolTip": "D:\\Uni of Westminster\\UoW_2DGD_Template\\Assets\\Scripts\\Mechanics\\TokenInstance.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Mechanics\\TokenInstance.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T11:47:47.29Z",
+              "WhenOpened": "2025-01-23T16:15:41.693Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainMenu.cs",
-              "DocumentMoniker": "D:\\Uni of Westminster\\UoW_2DGD_Template\\Assets\\Scripts\\UI\\MainMenu.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\MainMenu.cs",
-              "ToolTip": "D:\\Uni of Westminster\\UoW_2DGD_Template\\Assets\\Scripts\\UI\\MainMenu.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\MainMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "CountEnemies.cs",
+              "DocumentMoniker": "D:\\Uni of Westminster\\UoW_2DGD_Template\\Assets\\CountEnemies.cs",
+              "RelativeDocumentMoniker": "Assets\\CountEnemies.cs",
+              "ToolTip": "D:\\Uni of Westminster\\UoW_2DGD_Template\\Assets\\CountEnemies.cs",
+              "RelativeToolTip": "Assets\\CountEnemies.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T11:40:48.319Z"
+              "WhenOpened": "2025-01-23T16:10:34.758Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PlatformerJumpPad.cs",
-              "DocumentMoniker": "D:\\Uni of Westminster\\UoW_2DGD_Template\\Assets\\Mod Assets\\Mod Resources\\Scripts\\Platformer\\PlatformerJumpPad.cs",
-              "RelativeDocumentMoniker": "Assets\\Mod Assets\\Mod Resources\\Scripts\\Platformer\\PlatformerJumpPad.cs",
-              "ToolTip": "D:\\Uni of Westminster\\UoW_2DGD_Template\\Assets\\Mod Assets\\Mod Resources\\Scripts\\Platformer\\PlatformerJumpPad.cs",
-              "RelativeToolTip": "Assets\\Mod Assets\\Mod Resources\\Scripts\\Platformer\\PlatformerJumpPad.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "CountCoins.cs",
+              "DocumentMoniker": "D:\\Uni of Westminster\\UoW_2DGD_Template\\Assets\\Scripts\\UI\\CountCoins.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\CountCoins.cs",
+              "ToolTip": "D:\\Uni of Westminster\\UoW_2DGD_Template\\Assets\\Scripts\\UI\\CountCoins.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\CountCoins.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T13:56:28.41Z"
+              "WhenOpened": "2025-01-23T16:09:09.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "D:\\Uni of Westminster\\UoW_2DGD_Template\\Assets\\Scripts\\Mechanics\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Mechanics\\PlayerController.cs",
+              "ToolTip": "D:\\Uni of Westminster\\UoW_2DGD_Template\\Assets\\Scripts\\Mechanics\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Mechanics\\PlayerController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAtwBUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T16:09:41.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EnemyController.cs",
+              "DocumentMoniker": "D:\\Uni of Westminster\\UoW_2DGD_Template\\Assets\\Scripts\\Mechanics\\EnemyController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Mechanics\\EnemyController.cs",
+              "ToolTip": "D:\\Uni of Westminster\\UoW_2DGD_Template\\Assets\\Scripts\\Mechanics\\EnemyController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Mechanics\\EnemyController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAlwCoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T10:47:54.888Z",
+              "EditorCaption": ""
             }
           ]
         }
