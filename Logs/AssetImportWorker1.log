@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-49831
+51436
 Successfully changed project path to: /Users/chiaw/Documents/GitHub/UoW_2DGD_Template
 /Users/chiaw/Documents/GitHub/UoW_2DGD_Template
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -58,12 +58,12 @@ Successfully changed project path to: /Users/chiaw/Documents/GitHub/UoW_2DGD_Tem
     "memorysetup-temp-allocator-size-gfx=262144"
 Player connection [140704535363008]  Target information:
 
-Player connection [140704535363008]  * "[IP] 10.25.27.191 [Port] 0 [Flags] 2 [Guid] 1778843919 [EditorId] 1778843919 [Version] 1048832 [Id] OSXEditor(0,harC02DN4YAML85) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [140704535363008]  * "[IP] 10.100.141.248 [Port] 0 [Flags] 2 [Guid] 3512491520 [EditorId] 3512491520 [Version] 1048832 [Id] OSXEditor(0,harC02DN4YAML85) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
 Player connection [140704535363008] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [140704535363008] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-Refreshing native plugins compatible for Editor in 19.03 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 39.00 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.45f1 (a13dfa44d684)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -78,48 +78,48 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56569
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56391
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.45f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.45f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003970 seconds.
-- Loaded All Assemblies, in  0.667 seconds
+Registered in 0.004616 seconds.
+- Loaded All Assemblies, in  0.614 seconds
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.483 seconds
-Domain Reload Profiling: 1150ms
-	BeginReloadAssembly (166ms)
+- Finished resetting the current domain, in  0.366 seconds
+Domain Reload Profiling: 979ms
+	BeginReloadAssembly (196ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (86ms)
-	RebuildNativeTypeToScriptingClass (24ms)
-	initialDomainReloadingComplete (88ms)
-	LoadAllAssembliesAndSetupDomain (302ms)
-		LoadAssemblies (166ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (78ms)
+	LoadAllAssembliesAndSetupDomain (258ms)
+		LoadAssemblies (199ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (299ms)
-			TypeCache.Refresh (294ms)
-				TypeCache.ScanAssembly (270ms)
+		AnalyzeDomain (251ms)
+			TypeCache.Refresh (247ms)
+				TypeCache.ScanAssembly (227ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (484ms)
+	FinalizeReload (366ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (392ms)
+		SetupLoadedEditorAssemblies (299ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (17ms)
-			SetLoadedEditorAssemblies (9ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (287ms)
-			ProcessInitializeOnLoadMethodAttributes (75ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (213ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -128,53 +128,53 @@ Domain Reload Profiling: 1150ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.780 seconds
+- Loaded All Assemblies, in  1.279 seconds
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.344 seconds
-Domain Reload Profiling: 3125ms
-	BeginReloadAssembly (252ms)
+- Finished resetting the current domain, in  1.071 seconds
+Domain Reload Profiling: 2350ms
+	BeginReloadAssembly (194ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
+		DisableScriptedObjects (12ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (48ms)
-	RebuildCommonClasses (127ms)
-	RebuildNativeTypeToScriptingClass (38ms)
-	initialDomainReloadingComplete (97ms)
-	LoadAllAssembliesAndSetupDomain (1265ms)
-		LoadAssemblies (799ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (964ms)
+		LoadAssemblies (638ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (602ms)
-			TypeCache.Refresh (504ms)
-				TypeCache.ScanAssembly (466ms)
-			ScanForSourceGeneratedMonoScriptInfo (69ms)
-			ResolveRequiredComponents (24ms)
-	FinalizeReload (1345ms)
+		AnalyzeDomain (416ms)
+			TypeCache.Refresh (351ms)
+				TypeCache.ScanAssembly (321ms)
+			ScanForSourceGeneratedMonoScriptInfo (42ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1071ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1013ms)
+		SetupLoadedEditorAssemblies (824ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (111ms)
-			ProcessInitializeOnLoadAttributes (739ms)
-			ProcessInitializeOnLoadMethodAttributes (144ms)
-			AfterProcessingInitializeOnLoad (2ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (620ms)
+			ProcessInitializeOnLoadMethodAttributes (104ms)
+			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
 Launching external process: /Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.23 seconds
-Refreshing native plugins compatible for Editor in 4.20 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.09 seconds
+Refreshing native plugins compatible for Editor in 3.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 6358 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 65 unused Assets / (2.5 MB). Loaded Objects now: 6809.
-Memory consumption went from 251.2 MB to 248.7 MB.
-Total: 8.835614 ms (FindLiveObjects: 0.650921 ms CreateObjectMapping: 0.363637 ms MarkObjects: 6.713905 ms  DeleteObjects: 1.105771 ms)
+Memory consumption went from 250.9 MB to 248.3 MB.
+Total: 6.291755 ms (FindLiveObjects: 0.657385 ms CreateObjectMapping: 0.566867 ms MarkObjects: 3.973581 ms  DeleteObjects: 1.092782 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -191,20 +191,2227 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 7129.002077 seconds.
-  path: Assets/Environment/Sprites/Mountain_Environments_32.asset
-  artifactKey: Guid(e80d3caab69cc4d089b39d386a49af15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment/Sprites/Mountain_Environments_32.asset using Guid(e80d3caab69cc4d089b39d386a49af15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '119e758b25a9b3a7366f15bc3c72aafd') in 0.166563 seconds
+  Time since last request: 21966.130460 seconds.
+  path: Assets/Prefabs/Enemy.prefab
+  artifactKey: Guid(f158aa2be3df6489185ef721f6fd79c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy.prefab using Guid(f158aa2be3df6489185ef721f6fd79c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '60a1cb4677e761085cd173b01d0080a6') in 0.563022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 132
+========================================================================
+Received Import Request.
+  Time since last request: 11.087055 seconds.
+  path: Assets/Environment/Tiles/Tileset_Template_GreyBox.png
+  artifactKey: Guid(625ab5eeb0ab7489db2d4c94fcb4b9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Tiles/Tileset_Template_GreyBox.png using Guid(625ab5eeb0ab7489db2d4c94fcb4b9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'da330f89e3514acd14929b8a68ff6a98') in 0.048958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 176.444434 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_31.asset
+  artifactKey: Guid(dc42946723cf847f5bdf0acec02a0c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_31.asset using Guid(dc42946723cf847f5bdf0acec02a0c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'df341cfa038a2179370d4f0401bfad49') in 0.024522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_41.asset
+  artifactKey: Guid(fc69e51eb3a114b10bbd9bdc94b6b0ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_41.asset using Guid(fc69e51eb3a114b10bbd9bdc94b6b0ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '45ddcedfbdd9e813327db0e9aff49788') in 0.013418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000963 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_35.asset
+  artifactKey: Guid(79cff73b47df34b5ebd50efc27637dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_35.asset using Guid(79cff73b47df34b5ebd50efc27637dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ed365dc929d98acff96e2d656668b175') in 0.010828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_34.asset
+  artifactKey: Guid(83a21d8204c014bdd8998997e1c0d222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_34.asset using Guid(83a21d8204c014bdd8998997e1c0d222) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8f84d1cb1ca5c46e34dd1aa570241682') in 0.012083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001829 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_43.asset
+  artifactKey: Guid(502055f82a3824530a8b141f1eaf48eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_43.asset using Guid(502055f82a3824530a8b141f1eaf48eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9dfae25e2b3713d477fdf3f9c9f8f935') in 0.009997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_42.asset
+  artifactKey: Guid(753b21c4993394e758017c7d7017d94b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_42.asset using Guid(753b21c4993394e758017c7d7017d94b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4a89dc691691236dbafd0e0e05080f0e') in 0.012531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002089 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_36.asset
+  artifactKey: Guid(8383e92e212e94df58ca24593704d87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_36.asset using Guid(8383e92e212e94df58ca24593704d87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2801fad319e2c3dda5c6659d58adf0d1') in 0.011318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_44.asset
+  artifactKey: Guid(1123cc7b3a14f46e4834098c4e9f97a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_44.asset using Guid(1123cc7b3a14f46e4834098c4e9f97a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3aa3bd86127c6831efe2f10b289e450a') in 0.011599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.554550 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_46.asset
+  artifactKey: Guid(0a3daed1e5ce74b17982683c07f80c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_46.asset using Guid(0a3daed1e5ce74b17982683c07f80c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0b962eb8dadec9d36a770c6834806fda') in 0.010336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_59.asset
+  artifactKey: Guid(d2cc24acf347a4316aeeace1be6ccb0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_59.asset using Guid(d2cc24acf347a4316aeeace1be6ccb0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f17578d419d4b3e3bdf3d685b1fa8a3a') in 0.012096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_47.asset
+  artifactKey: Guid(88786e981daab438abe7b5334d8a2ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_47.asset using Guid(88786e981daab438abe7b5334d8a2ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4e6d09a9bfadd1ca55b3bdf732aec1c7') in 0.009380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_63.asset
+  artifactKey: Guid(aaa44530abe8b481ca4fb024d415218d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_63.asset using Guid(aaa44530abe8b481ca4fb024d415218d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9de6b792ee583073a10ab06d8fc9e151') in 0.012295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_62.asset
+  artifactKey: Guid(1e59ce28d9aad43c392850d236ea4dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_62.asset using Guid(1e59ce28d9aad43c392850d236ea4dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '53df0a8b3767cb550c751742f43fe89c') in 0.011857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_60.asset
+  artifactKey: Guid(41f96ba94f39e4e8c997c01c621ca36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_60.asset using Guid(41f96ba94f39e4e8c997c01c621ca36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3050a11647374afd347e11ab823c2020') in 0.011428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_49.asset
+  artifactKey: Guid(026b43c11a7684a32b794754fb13a457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_49.asset using Guid(026b43c11a7684a32b794754fb13a457) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5969189a24906af8dbd1b55f4cbcfc37') in 0.013177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_61.asset
+  artifactKey: Guid(571cc1f543e394f389da64425062083f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_61.asset using Guid(571cc1f543e394f389da64425062083f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4bf822f1aa994a7bfd9c745613af92f4') in 0.010328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_51.asset
+  artifactKey: Guid(57d58842951dc4dd9b9c6c90b600c89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_51.asset using Guid(57d58842951dc4dd9b9c6c90b600c89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'acf2c1bf43cc1ea0ae15ba7b5ff70ad0') in 0.010017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_48.asset
+  artifactKey: Guid(f788664cc0f86491f9b9aad5931a5a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_48.asset using Guid(f788664cc0f86491f9b9aad5931a5a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4d4b1a897051df2f94ccae2f873b6c48') in 0.010058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.053843 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_66.asset
+  artifactKey: Guid(09eea70839ff445f39b7fb7e6717edfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_66.asset using Guid(09eea70839ff445f39b7fb7e6717edfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8631ccf0e7c46ab0ca35821a21363332') in 0.008698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_86.asset
+  artifactKey: Guid(357a1e084433c4394bd118437f65bc76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_86.asset using Guid(357a1e084433c4394bd118437f65bc76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ecbbb69d0cb42480f90dcb3da49e7a14') in 0.011291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_104.asset
+  artifactKey: Guid(f48893bf2c12f47858cdc63eb3c322ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_104.asset using Guid(f48893bf2c12f47858cdc63eb3c322ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'edc3b3f6c539eb816d09a191503c88aa') in 0.010323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001436 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_68.asset
+  artifactKey: Guid(16b32a60266ac41f3a4b95cd2b0aeda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_68.asset using Guid(16b32a60266ac41f3a4b95cd2b0aeda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3b1dcff9caf946f462ace18e6e2052fb') in 0.012870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002231 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_74.asset
+  artifactKey: Guid(95877dca76245406b9a51b76d82e58c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_74.asset using Guid(95877dca76245406b9a51b76d82e58c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '083756e2f1f741f7a42cc8918d5ce64a') in 0.009733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000878 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_84.asset
+  artifactKey: Guid(80d4386450c104d79aff4f520b178c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_84.asset using Guid(80d4386450c104d79aff4f520b178c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '96290b6f7082b58aee1c5a379e08ad2d') in 0.019238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.019425 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_94.asset
+  artifactKey: Guid(09e2e1377ede4468d88299d114351180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_94.asset using Guid(09e2e1377ede4468d88299d114351180) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'cf894440ad84d7ed20bf9bb9a0678b33') in 0.013978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.003304 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_70.asset
+  artifactKey: Guid(cb4a567545f1845dc91f5c0722526ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_70.asset using Guid(cb4a567545f1845dc91f5c0722526ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'eaba0d2e2852c579d1817a0bda38ada7') in 0.009512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_88.asset
+  artifactKey: Guid(fe7cf31686565426db0c064232fb2015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_88.asset using Guid(fe7cf31686565426db0c064232fb2015) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '22ac7e8030cc03b226b2eb223ca1f0d0') in 0.010123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001529 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_98.asset
+  artifactKey: Guid(f2b100556dfbc40f4863783f1f1e4473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_98.asset using Guid(f2b100556dfbc40f4863783f1f1e4473) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '658ccfa0caff700de6d416d31433d6d2') in 0.013937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001200 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_73.asset
+  artifactKey: Guid(fdee8bdf6d4624210aed4fbb14da2027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_73.asset using Guid(fdee8bdf6d4624210aed4fbb14da2027) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0ef3e9ae80d0c3dac037ab309cedd9b6') in 0.019654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_80.asset
+  artifactKey: Guid(ff0f9d48394e0477ab9618b42bbf2b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_80.asset using Guid(ff0f9d48394e0477ab9618b42bbf2b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'fa8f0bc92e48b73a2c38214595a6396a') in 0.011788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_82.asset
+  artifactKey: Guid(04667470c94c94d35a51bd139a951438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_82.asset using Guid(04667470c94c94d35a51bd139a951438) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e4a48a89a8f812cf5d4eb637a46ca46c') in 0.016528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_100.asset
+  artifactKey: Guid(c853cbbd4f44d4432a3c1e244ee501e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_100.asset using Guid(c853cbbd4f44d4432a3c1e244ee501e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '50d9e78cfc3bf75a4049f19593df842d') in 0.012947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000878 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_101.asset
+  artifactKey: Guid(37fd4093d6709426dabee4bb6b9dca6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_101.asset using Guid(37fd4093d6709426dabee4bb6b9dca6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd7a3f97aa52bf00d61b70420acacd598') in 0.009670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_112.asset
+  artifactKey: Guid(179fc0522621747389dce54a41d654a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_112.asset using Guid(179fc0522621747389dce54a41d654a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a533bb782853f398881408a69ebd7499') in 0.009186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_114.asset
+  artifactKey: Guid(ee0513734595a479cb20bb18a52d9208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_114.asset using Guid(ee0513734595a479cb20bb18a52d9208) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bc1261482d3b6083ce4847827dc538af') in 0.008361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_117.asset
+  artifactKey: Guid(1ca93302df360440a8cfae1a069fc371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_117.asset using Guid(1ca93302df360440a8cfae1a069fc371) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ce82aecfa4642f1367079d44ac692378') in 0.008496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_109.asset
+  artifactKey: Guid(de80e530745b94ae890376d74e12138c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_109.asset using Guid(de80e530745b94ae890376d74e12138c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7c1533a56684af35b6020f1289055a93') in 0.007804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_129.asset
+  artifactKey: Guid(a986712cf559f46b0af91cc9d630997a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_129.asset using Guid(a986712cf559f46b0af91cc9d630997a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e7f268b2b31476775abee62252928200') in 0.009240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_133.asset
+  artifactKey: Guid(b92db7d89b6d843308e601a698c2668c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_133.asset using Guid(b92db7d89b6d843308e601a698c2668c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6a3cf74562e41e4ef2b355752c7188d3') in 0.008560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_115.asset
+  artifactKey: Guid(7f6c52fc40dc14f759ad6d28465f234a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_115.asset using Guid(7f6c52fc40dc14f759ad6d28465f234a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '75bd2263393da7d97795514e389ee525') in 0.009255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_128.asset
+  artifactKey: Guid(c661742c1ed6d4b00844a363ee827eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_128.asset using Guid(c661742c1ed6d4b00844a363ee827eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '33bbc1dd4035c33e7df4af9c64365e10') in 0.008882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_121.asset
+  artifactKey: Guid(63a4b92186e3544a3a7bbc60e28559fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_121.asset using Guid(63a4b92186e3544a3a7bbc60e28559fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3f32f0684e51472a890af05553b8eea6') in 0.009422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_120.asset
+  artifactKey: Guid(f3fd58004f82a44b4b652585c06e69ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_120.asset using Guid(f3fd58004f82a44b4b652585c06e69ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6d7da8882e6a00b2bb33135017eb9286') in 0.008484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_111.asset
+  artifactKey: Guid(e84b1ed91f8c6437aa798e499ee485b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_111.asset using Guid(e84b1ed91f8c6437aa798e499ee485b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1781172d69dcba475aced860c3cb60dd') in 0.008682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_125.asset
+  artifactKey: Guid(83f4606f7f7a84fb09af521e81f77bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_125.asset using Guid(83f4606f7f7a84fb09af521e81f77bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1278b24ebd9ff5a4805fbc50e50be796') in 0.008475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_131.asset
+  artifactKey: Guid(5a9cd5a5d557444b2b3a5467181915b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_131.asset using Guid(5a9cd5a5d557444b2b3a5467181915b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '81b9116b899dd12dccce73fae84fe46a') in 0.009153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_107.asset
+  artifactKey: Guid(4d46769a3a26e4b2fabe23d454340f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_107.asset using Guid(4d46769a3a26e4b2fabe23d454340f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '794bb4c402805f39dd8eef3bfa895529') in 0.009075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_67.asset
+  artifactKey: Guid(1e3e30d677c314e33947cddc8ca956a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_67.asset using Guid(1e3e30d677c314e33947cddc8ca956a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '753ec28bfa0346633fceb1746b48a4b7') in 0.012199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_90.asset
+  artifactKey: Guid(4ec632bfc8b0a4fe8aa0618fb815db73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_90.asset using Guid(4ec632bfc8b0a4fe8aa0618fb815db73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '789d8574b3695e54d64da0f0e60b7d52') in 0.009937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_91.asset
+  artifactKey: Guid(6b05320de43ec41ddbc4b2ba586118c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_91.asset using Guid(6b05320de43ec41ddbc4b2ba586118c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd2775d852f9f6b97e1ecfeb79cb07d86') in 0.010548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_138.asset
+  artifactKey: Guid(ea17612c4a3e04f468ac39fccb1198e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_138.asset using Guid(ea17612c4a3e04f468ac39fccb1198e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0ff433352dda4cae78e3ef56caa6e2a8') in 0.010361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_141.asset
+  artifactKey: Guid(056aa38c06b97472a89d528f59be9624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_141.asset using Guid(056aa38c06b97472a89d528f59be9624) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'de9df9d44002ff914cf7e5a5c859fc86') in 0.011913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000481 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_144.asset
+  artifactKey: Guid(faf6dcb470d4a47cf986409e372fb3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_144.asset using Guid(faf6dcb470d4a47cf986409e372fb3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '14f9e38804e2f2cbf9e0d209c9015cd6') in 0.012211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_140.asset
+  artifactKey: Guid(b8e2a4d8fa7b84a4f9e4aae1e446f942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_140.asset using Guid(b8e2a4d8fa7b84a4f9e4aae1e446f942) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '963dd79d1888d25f408acac5d219a9e9') in 0.016706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.014164 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_139.asset
+  artifactKey: Guid(ff0b05fbd19c34e3782ad6d9f4f42656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_139.asset using Guid(ff0b05fbd19c34e3782ad6d9f4f42656) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '188d6ddd0ff8ee5db240afb656a5a4d1') in 0.011978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002621 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_81.asset
+  artifactKey: Guid(c5b09a36a1d034087aa185c4fc97dc7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_81.asset using Guid(c5b09a36a1d034087aa185c4fc97dc7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '28187384ec6adff30280b94f93ac5f54') in 0.015379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000691 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_118.asset
+  artifactKey: Guid(f43f77620e93b4268bbfa21ce1f97024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_118.asset using Guid(f43f77620e93b4268bbfa21ce1f97024) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7f27a42fae6a832b69bfdaddea19e570') in 0.010756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_72.asset
+  artifactKey: Guid(1965a5f69c6d847f2bd8c72d36ecaf5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_72.asset using Guid(1965a5f69c6d847f2bd8c72d36ecaf5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'da4e428a55e73046b32d10d322b15a84') in 0.012302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.029697 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_146.asset
+  artifactKey: Guid(77c4dad7d257a46e799738e7963fc05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_146.asset using Guid(77c4dad7d257a46e799738e7963fc05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7b0e64efd51927198f1ad224d39d8e9a') in 0.015522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_151.asset
+  artifactKey: Guid(5f3c1e842792e4ad28f467e3e33032d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_151.asset using Guid(5f3c1e842792e4ad28f467e3e33032d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f61be95e88bcd590dcfc9a14ab921ba3') in 0.010634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_160.asset
+  artifactKey: Guid(441df9ac141d4433996df4fae744d8bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_160.asset using Guid(441df9ac141d4433996df4fae744d8bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '975c388113338b3ac0eebc55fffef1ad') in 0.010496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_164.asset
+  artifactKey: Guid(844c275389ed94f7aa4f8d9d25e6afac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_164.asset using Guid(844c275389ed94f7aa4f8d9d25e6afac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3c27316816f2ae57f41183bb9e4b3c34') in 0.010497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_181.asset
+  artifactKey: Guid(7dfdfe0b691b74e7a82b605ac77a9032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_181.asset using Guid(7dfdfe0b691b74e7a82b605ac77a9032) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b064c36f70c43dcb3bfbbb782656bf07') in 0.011477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_170.asset
+  artifactKey: Guid(ecd92b1ada92149078d7d2b29270f9db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_170.asset using Guid(ecd92b1ada92149078d7d2b29270f9db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '715f3e4d49474ea201a414889966998a') in 0.010299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_173.asset
+  artifactKey: Guid(6e1c34cca276c4d8885cb9df2b3ce22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_173.asset using Guid(6e1c34cca276c4d8885cb9df2b3ce22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '74e7b367affb71099d38eacac9f26fa6') in 0.012891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_171.asset
+  artifactKey: Guid(d2edb0aea6c794d5fa8e76c853d5a7e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_171.asset using Guid(d2edb0aea6c794d5fa8e76c853d5a7e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '60640b2cec6fa5da24c3175ad2b20dd9') in 0.012084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_153.asset
+  artifactKey: Guid(fe9c405b5038746ebbbbf0d364b1c2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_153.asset using Guid(fe9c405b5038746ebbbbf0d364b1c2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e727667375118eccaa9507ea2d22b310') in 0.009710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_180.asset
+  artifactKey: Guid(aebbd426b7063410783c3b099e00f7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_180.asset using Guid(aebbd426b7063410783c3b099e00f7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3543c0b53a8bd0a01aa1ee9afa75e65c') in 0.009929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_156.asset
+  artifactKey: Guid(959da3f1648164f8e8533ee92678e006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_156.asset using Guid(959da3f1648164f8e8533ee92678e006) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b31d5de953c346245b186e9360b0ae31') in 0.011928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_176.asset
+  artifactKey: Guid(3d05beba83bfc4565ae8c49ea7db63d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_176.asset using Guid(3d05beba83bfc4565ae8c49ea7db63d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '406da7148411b7d6969c8e7b616ea04d') in 0.009301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_163.asset
+  artifactKey: Guid(872cb338e92384cc6bcb086dbb157532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_163.asset using Guid(872cb338e92384cc6bcb086dbb157532) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a7559627c77e46807cc2c62c8de1b00b') in 0.014106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_152.asset
+  artifactKey: Guid(a68bcbe1676774042bfe2e3274ca8a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_152.asset using Guid(a68bcbe1676774042bfe2e3274ca8a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f4f4b11637f14a6de215137f42d72917') in 0.012332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_184.asset
+  artifactKey: Guid(37079224954a54157884d12c354df748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_184.asset using Guid(37079224954a54157884d12c354df748) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bedf72ca9a1fcb651cb0a762447c4bd4') in 0.013074 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_147.asset
+  artifactKey: Guid(00db5afeea65c4790ba87bf8b410e0aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_147.asset using Guid(00db5afeea65c4790ba87bf8b410e0aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6eb8f23cf9cded57152ef03d6de3ecb5') in 0.009527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_159.asset
+  artifactKey: Guid(167308a28654f4454a826b01af22961a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_159.asset using Guid(167308a28654f4454a826b01af22961a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bfec30c0eef230a12032d3230fb29930') in 0.009614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_169.asset
+  artifactKey: Guid(6266ca5d2288446dfa505f40faaf996c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_169.asset using Guid(6266ca5d2288446dfa505f40faaf996c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1e385f34d5af7b94a5fe80703ec2f207') in 0.010827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_157.asset
+  artifactKey: Guid(1f51f299b65c94bda958f631857c87e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_157.asset using Guid(1f51f299b65c94bda958f631857c87e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '92325ced0841158a732af7ec1b456984') in 0.009617 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000147 seconds.
-  path: Assets/Environment/Sprites/Mountain_Environments_37.asset
-  artifactKey: Guid(bc9066dfc488a45ef9c07f67d180d5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment/Sprites/Mountain_Environments_37.asset using Guid(bc9066dfc488a45ef9c07f67d180d5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'd3ded48bcc4ffe8c07ce4354a77d2039') in 0.015717 seconds
+  path: Assets/Environment/Sprites/Mountain_Environments_172.asset
+  artifactKey: Guid(cf0943a42b4ad4abe8554905b68b7829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_172.asset using Guid(cf0943a42b4ad4abe8554905b68b7829) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f8bc552653dcd82fd63bcc44a4b00436') in 0.008857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.047511 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_186.asset
+  artifactKey: Guid(ce4a47aeccb114771b6faaa1dc7b36ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_186.asset using Guid(ce4a47aeccb114771b6faaa1dc7b36ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f968616ae9fdccaa3afc46998ffaedb8') in 0.009988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.006226 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_192.asset
+  artifactKey: Guid(8477b3e42014c439584f614fb7756239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_192.asset using Guid(8477b3e42014c439584f614fb7756239) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '524184d929e92f82088326eced739bf9') in 0.009544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_201.asset
+  artifactKey: Guid(cd8a3c3dac93242d89dc9511b2277d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_201.asset using Guid(cd8a3c3dac93242d89dc9511b2277d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '851053565b5887930abdab8c36011937') in 0.011148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_189.asset
+  artifactKey: Guid(ac3a40a7dd3a847f5a20dd11f77475b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_189.asset using Guid(ac3a40a7dd3a847f5a20dd11f77475b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2e95adbfa7f1f474c5c5fc347236177d') in 0.012755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_206.asset
+  artifactKey: Guid(a7e4dad50b0584d5d8c94691d23e10e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_206.asset using Guid(a7e4dad50b0584d5d8c94691d23e10e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f8b676537d2604ce6f00bde2770ec29a') in 0.011555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_195.asset
+  artifactKey: Guid(49f5c5da8f8af4dbf9f02dab36a38ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_195.asset using Guid(49f5c5da8f8af4dbf9f02dab36a38ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3258c7621978676d3776d0d8e0761f5f') in 0.016178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_203.asset
+  artifactKey: Guid(57ac6cbeb93004922a4f6132244761a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_203.asset using Guid(57ac6cbeb93004922a4f6132244761a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '92314a6b7829c0546eaf25021fe965d5') in 0.009973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000973 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_202.asset
+  artifactKey: Guid(693a3afba65464afba339a12f620f4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_202.asset using Guid(693a3afba65464afba339a12f620f4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '20ced41277069e76fce33c249826d466') in 0.010126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_196.asset
+  artifactKey: Guid(852eb7fcf2c204323a470eea3cbe2ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_196.asset using Guid(852eb7fcf2c204323a470eea3cbe2ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b75bb5e302485088527e2f2e05147b86') in 0.013144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_193.asset
+  artifactKey: Guid(5386a4a892e4d4ab49255ad28936a84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_193.asset using Guid(5386a4a892e4d4ab49255ad28936a84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a4a55aeab8fcbbb2237ed4d3a8132196') in 0.011868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_209.asset
+  artifactKey: Guid(5786642d47fe84a1ea29977a75bdb902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_209.asset using Guid(5786642d47fe84a1ea29977a75bdb902) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '548bf3874c1227f15f686bf515b8f9fc') in 0.009920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002261 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_194.asset
+  artifactKey: Guid(61652a448ddd842d7a86c2e1d69ab63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_194.asset using Guid(61652a448ddd842d7a86c2e1d69ab63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00f9e38388a2e288db373225c0e2b373') in 0.009801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_198.asset
+  artifactKey: Guid(50a7770472cd7415990047bb3f22a181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_198.asset using Guid(50a7770472cd7415990047bb3f22a181) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c2b61ca96e8a486cc2fd4be0c55e9bdc') in 0.010282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_200.asset
+  artifactKey: Guid(613c8e2c8b14a4c60932c2dee2774aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_200.asset using Guid(613c8e2c8b14a4c60932c2dee2774aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a5123a233fbaf3013e3dff3a06c49fe4') in 0.011829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_207.asset
+  artifactKey: Guid(736b8a5c87b554d72921a0204d54585b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_207.asset using Guid(736b8a5c87b554d72921a0204d54585b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bfbba58401d5b74650f8860600588138') in 0.008980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.092794 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_216.asset
+  artifactKey: Guid(c876c202440d14cb58bf9e2d7f2a3405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_216.asset using Guid(c876c202440d14cb58bf9e2d7f2a3405) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd9bd7f0f31d0ac39d372916937c7ddb8') in 0.011194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_221.asset
+  artifactKey: Guid(187f417db5f8e4921b588024916bffe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_221.asset using Guid(187f417db5f8e4921b588024916bffe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a55a984e69ae10699d9de2f0e5d77e92') in 0.008913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_224.asset
+  artifactKey: Guid(431a029b1060541c4b8ac8497d6a6de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_224.asset using Guid(431a029b1060541c4b8ac8497d6a6de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0ab703df6498390df791e3999aa3d5f2') in 0.009232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_232.asset
+  artifactKey: Guid(9c2e775edfbd249a7b4723c20a95e87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_232.asset using Guid(9c2e775edfbd249a7b4723c20a95e87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5f4a9532f5bf38060fa632045664a922') in 0.009982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_253.asset
+  artifactKey: Guid(effb0128731ca429badc2e44c23fa41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_253.asset using Guid(effb0128731ca429badc2e44c23fa41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c36032328adcefda1cd9837e477073e7') in 0.008321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_248.asset
+  artifactKey: Guid(a5c61f9facd044d879ad49510872b2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_248.asset using Guid(a5c61f9facd044d879ad49510872b2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '61620bc544f28cbc416ccb81effad293') in 0.008079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_274.asset
+  artifactKey: Guid(8812bc50b88784b418e0d381c0e176ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_274.asset using Guid(8812bc50b88784b418e0d381c0e176ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '30d57d040dadb510ca7ef73a4d65ac54') in 0.011811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_249.asset
+  artifactKey: Guid(fcd78d6fa624542d6af9104ea7c4c51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_249.asset using Guid(fcd78d6fa624542d6af9104ea7c4c51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7a01006e3e56e06cff00def07c35ca02') in 0.008920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_247.asset
+  artifactKey: Guid(103b2a944cf6e4afe962321274bef1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_247.asset using Guid(103b2a944cf6e4afe962321274bef1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e93d7f38cd6ab5c858823d266bd025ac') in 0.009310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_265.asset
+  artifactKey: Guid(0d2b6e8aaee754df49b61c56cfb59065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_265.asset using Guid(0d2b6e8aaee754df49b61c56cfb59065) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '048c82b50611a0d7aaa4ed4ef979d365') in 0.012107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_269.asset
+  artifactKey: Guid(d8b5e9642d0024503992d0ccbed2f99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_269.asset using Guid(d8b5e9642d0024503992d0ccbed2f99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'de97cc7ad8bf2ade5c4d957ddee6d6fd') in 0.011097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_226.asset
+  artifactKey: Guid(d1360b5b466cb4eac8d708ee3e13c98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_226.asset using Guid(d1360b5b466cb4eac8d708ee3e13c98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5897c3f37829502d78824e49eae7e009') in 0.008620 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_246.asset
+  artifactKey: Guid(9856ed2573c2f4562b17d8fb0bfe396b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_246.asset using Guid(9856ed2573c2f4562b17d8fb0bfe396b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0b56a4b6c69c419c64b5c3fedb6f9385') in 0.015118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001379 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_273.asset
+  artifactKey: Guid(034bae1556ed64562a288027e2e27c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_273.asset using Guid(034bae1556ed64562a288027e2e27c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bde7f4e3d0e94d024f2c21d2e9cdca27') in 0.009341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_242.asset
+  artifactKey: Guid(012e21ded7b3944329e58b77a647d11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_242.asset using Guid(012e21ded7b3944329e58b77a647d11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '862f1e044792a8aa51f98d20010827fe') in 0.015669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_235.asset
+  artifactKey: Guid(0de892f1ef8454ce693eafdf01e9056f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_235.asset using Guid(0de892f1ef8454ce693eafdf01e9056f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8af3eca58978a3ea7d2f32d45abaa968') in 0.009617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_263.asset
+  artifactKey: Guid(d7398ed3ad7354a96ad857784caeadb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_263.asset using Guid(d7398ed3ad7354a96ad857784caeadb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'dca806b959f2972f8ed50d1e3d836e72') in 0.008561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_259.asset
+  artifactKey: Guid(5e6b5deb3d4d8451bb109f8eb1fdfe40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_259.asset using Guid(5e6b5deb3d4d8451bb109f8eb1fdfe40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a64232ca670d80cb67c1a3becfcad47c') in 0.013492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_243.asset
+  artifactKey: Guid(39f55390f1957471e8c93e4ea2a2da41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_243.asset using Guid(39f55390f1957471e8c93e4ea2a2da41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd1d1cbc94cc4697eb9dabbc2eed1fc34') in 0.009417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_250.asset
+  artifactKey: Guid(ac3f006f120a44d1193b69e083234a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_250.asset using Guid(ac3f006f120a44d1193b69e083234a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '864bceb3478ff4011528306333ae5114') in 0.008588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_228.asset
+  artifactKey: Guid(acbfd02d598d1444a8d54274db961666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_228.asset using Guid(acbfd02d598d1444a8d54274db961666) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0d0aa29ba5a5fd7e8948fb0ae8d25687') in 0.009479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_222.asset
+  artifactKey: Guid(3535af288c9d5445a84c2f54e4ffc53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_222.asset using Guid(3535af288c9d5445a84c2f54e4ffc53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f6f683c05a2aa33361b212779989517c') in 0.010926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_237.asset
+  artifactKey: Guid(88003c3139b86406e9ed0b43102efd11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_237.asset using Guid(88003c3139b86406e9ed0b43102efd11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b6869a8bedf764740fd595061c75509b') in 0.010079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_266.asset
+  artifactKey: Guid(1cd3c66995fbf45a49bf723bae8d0a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_266.asset using Guid(1cd3c66995fbf45a49bf723bae8d0a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a194661b29ffcfc416b27915d1057a2d') in 0.010711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_267.asset
+  artifactKey: Guid(16f59c4e2c2804bfc83ebf35e2137396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_267.asset using Guid(16f59c4e2c2804bfc83ebf35e2137396) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8b7d95dce1f2d361a5be6ea92fe656de') in 0.011066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_275.asset
+  artifactKey: Guid(87355be57894246ac8b4a64723e3e2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_275.asset using Guid(87355be57894246ac8b4a64723e3e2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e1fe402f086ac5cfe30fe471337864d8') in 0.009107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_286.asset
+  artifactKey: Guid(122befcde4a9742a0b566c63ca186f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_286.asset using Guid(122befcde4a9742a0b566c63ca186f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '52ae951782f80e57dba6101e3d2893a4') in 0.011502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_312.asset
+  artifactKey: Guid(36bf4bbc3a93d499ea5b99b8b6594b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_312.asset using Guid(36bf4bbc3a93d499ea5b99b8b6594b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '14d175ecbf330675225cb4a8179da342') in 0.011786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_294.asset
+  artifactKey: Guid(73412d6c7f0e640a9bbb67750ee493d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_294.asset using Guid(73412d6c7f0e640a9bbb67750ee493d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '93d69e7f6e12c245c2786a0bd88487d7') in 0.009193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_305.asset
+  artifactKey: Guid(d843afe5660e04758929210485a96586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_305.asset using Guid(d843afe5660e04758929210485a96586) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c5e794de49ca8deb1af59f8dba2f2ddb') in 0.008978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_285.asset
+  artifactKey: Guid(53f7e890b5cf34ba48ab6afe0fd00f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_285.asset using Guid(53f7e890b5cf34ba48ab6afe0fd00f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bddcc47e34ebc9943bb31d82c6bf2695') in 0.010407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_284.asset
+  artifactKey: Guid(c65f2bea15baa4d30ad7f43c8a01cfc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_284.asset using Guid(c65f2bea15baa4d30ad7f43c8a01cfc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '20cec0a933699011b3ba3be4c9701bc8') in 0.010071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_292.asset
+  artifactKey: Guid(24708a2cc98ee42088918fa3734ceb01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_292.asset using Guid(24708a2cc98ee42088918fa3734ceb01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1233bc10e2e00d1d79437c348eae8332') in 0.010151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_289.asset
+  artifactKey: Guid(039aeb39f366645aaaf83c2125442bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_289.asset using Guid(039aeb39f366645aaaf83c2125442bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '22086684d76a208e43bd4a895b7dcd99') in 0.011009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_310.asset
+  artifactKey: Guid(c8699464cc3f14e8fb0075f8e73a7c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_310.asset using Guid(c8699464cc3f14e8fb0075f8e73a7c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bf6cc54054662f430fe700df06245690') in 0.008447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_293.asset
+  artifactKey: Guid(af3a64b16ec6e4ecaace284962614cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_293.asset using Guid(af3a64b16ec6e4ecaace284962614cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a9f2eaa347167fb8c2d410381081de2b') in 0.010454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_306.asset
+  artifactKey: Guid(d301fec0adc1a4dc087f4828c7323b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_306.asset using Guid(d301fec0adc1a4dc087f4828c7323b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9f9ec07b0e4dad705f4c25a4925364ee') in 0.009466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_296.asset
+  artifactKey: Guid(12e1d4c41aeb24525ad8714c3ec8042d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_296.asset using Guid(12e1d4c41aeb24525ad8714c3ec8042d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5981c3ed93087b0070fa3d7caea2ae8a') in 0.009322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_281.asset
+  artifactKey: Guid(4f5b7b439ed6c4e5682d156612ca6b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_281.asset using Guid(4f5b7b439ed6c4e5682d156612ca6b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd23b25fd8d5ccddead89086f2e160be9') in 0.010161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_307.asset
+  artifactKey: Guid(a72b2717c1b8041feb0797c1590b2659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_307.asset using Guid(a72b2717c1b8041feb0797c1590b2659) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c75fad5cabe51fa60f959ddf747db38e') in 0.010398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_295.asset
+  artifactKey: Guid(6f74de66a22844725af67954920a25ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_295.asset using Guid(6f74de66a22844725af67954920a25ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0684658e19738e03b364c37a422f8df7') in 0.010168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000506 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_290.asset
+  artifactKey: Guid(7168f0e7fdbce42f282944cceaa239c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_290.asset using Guid(7168f0e7fdbce42f282944cceaa239c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0e328fc17a417eb5e3ea49341a158b25') in 0.011449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_271.asset
+  artifactKey: Guid(5b05666333335436f8fc22ef7cccf849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_271.asset using Guid(5b05666333335436f8fc22ef7cccf849) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ce60b0c3fe75ace773bb19a976913f65') in 0.011662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_299.asset
+  artifactKey: Guid(c75df19aefaad46258b64c17d0b07cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_299.asset using Guid(c75df19aefaad46258b64c17d0b07cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c72b8713f5a714fd395c5aefbd9da409') in 0.012662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.004911 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_268.asset
+  artifactKey: Guid(fed7a10f515c840bb8ae051f3ff38aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_268.asset using Guid(fed7a10f515c840bb8ae051f3ff38aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '91d06af4955ff6d7a222c17afea45cd0') in 0.010793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000766 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_231.asset
+  artifactKey: Guid(a6902bacfb1ce44baaea6ea9b4c882ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_231.asset using Guid(a6902bacfb1ce44baaea6ea9b4c882ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '350ccf506afcb997fe774f600bd28959') in 0.013417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001015 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_233.asset
+  artifactKey: Guid(d3dee819bd2e540bcbfdf1776a0d7216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_233.asset using Guid(d3dee819bd2e540bcbfdf1776a0d7216) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'dab3941092f41b557301f7f3fd6f61f3') in 0.011724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001355 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_240.asset
+  artifactKey: Guid(1daf74b3a92ad4d3686725ee94f1729b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_240.asset using Guid(1daf74b3a92ad4d3686725ee94f1729b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '759fcd69640c2c4abb7a40f4f29e5356') in 0.013485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_236.asset
+  artifactKey: Guid(67c077fac6e3d45e6b269742e1e5012f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_236.asset using Guid(67c077fac6e3d45e6b269742e1e5012f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5725e99771680ab71de308b6376aaf61') in 0.009556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000937 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_302.asset
+  artifactKey: Guid(5a0cf94f0f0534dbf887135bd9979da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_302.asset using Guid(5a0cf94f0f0534dbf887135bd9979da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '329ec7db7813b731955bc18c56021d33') in 0.010090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_300.asset
+  artifactKey: Guid(eac44311eaf6c4061ad88bdf5c2a4ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_300.asset using Guid(eac44311eaf6c4061ad88bdf5c2a4ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '62eae6b32b1fe974ac56434c0cca70b1') in 0.008688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_335.asset
+  artifactKey: Guid(f889bfbb806f148c0aa4fc5ca3a01949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_335.asset using Guid(f889bfbb806f148c0aa4fc5ca3a01949) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '98c4e310e8f6e4f467deabc4055626fb') in 0.011925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_321.asset
+  artifactKey: Guid(249af58b4ef4946e4b01aaeada6e4176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_321.asset using Guid(249af58b4ef4946e4b01aaeada6e4176) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd1c2e7e6228ae97ecfe5f5eef474366d') in 0.010531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_342.asset
+  artifactKey: Guid(9c30afcbbffbf486b834263c94b488c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_342.asset using Guid(9c30afcbbffbf486b834263c94b488c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b01de4f70985f434ca4a237931b32c79') in 0.009056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_326.asset
+  artifactKey: Guid(272c1230fc06b442d848a06f486bc2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_326.asset using Guid(272c1230fc06b442d848a06f486bc2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '90c0b4cb7684315d9d41f69a6fa7b95e') in 0.009471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_344.asset
+  artifactKey: Guid(04239c46fe825494b87318e3444bd8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_344.asset using Guid(04239c46fe825494b87318e3444bd8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'fc8c459bd04c13005738ad034ec6c08d') in 0.010066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_315.asset
+  artifactKey: Guid(92e4dc751b25e482680396951c9a75d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_315.asset using Guid(92e4dc751b25e482680396951c9a75d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '27b16f72d7395d5da63476c0f8b015a4') in 0.009204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_340.asset
+  artifactKey: Guid(4c9f23e135d924fae981067c0a11283c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_340.asset using Guid(4c9f23e135d924fae981067c0a11283c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '76b47ce513b7e6d6f23702f0051ef562') in 0.008395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_317.asset
+  artifactKey: Guid(92a3172a59d684a7f92f993ae5a66a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_317.asset using Guid(92a3172a59d684a7f92f993ae5a66a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '27950d64af4b141dce0f7671048a959d') in 0.010920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_327.asset
+  artifactKey: Guid(f134ed42f9e484290aaa3cd24263e84a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_327.asset using Guid(f134ed42f9e484290aaa3cd24263e84a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '26815e678f3c216708f84185ece5d57f') in 0.011091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_329.asset
+  artifactKey: Guid(879ad602cec814a0c96e80adf863842a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_329.asset using Guid(879ad602cec814a0c96e80adf863842a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'dbf9a232c708adb2c0ce147dfadda7bf') in 0.008909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_343.asset
+  artifactKey: Guid(d087c4ce9583843558f6954b93242a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_343.asset using Guid(d087c4ce9583843558f6954b93242a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e558102289aebf422e3d26d4f7783619') in 0.009384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_318.asset
+  artifactKey: Guid(adc0de7c9496c4abb9ceb8ecee87926d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_318.asset using Guid(adc0de7c9496c4abb9ceb8ecee87926d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4e8808bc8971d21808c4290c2b52c726') in 0.010882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_334.asset
+  artifactKey: Guid(d3ef5f720278641c5bffc58dcc76452a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_334.asset using Guid(d3ef5f720278641c5bffc58dcc76452a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9123b8492e6e0e05432ac143f0af7f6c') in 0.011002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_328.asset
+  artifactKey: Guid(f38b12e5fd9da4f80887232b84e5b068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_328.asset using Guid(f38b12e5fd9da4f80887232b84e5b068) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0d3b26a140e83c01eb18ec73c0151309') in 0.009105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_323.asset
+  artifactKey: Guid(fb36c39b8d42141a8aac6583895c8a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_323.asset using Guid(fb36c39b8d42141a8aac6583895c8a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4c01814435dcfe9f3916f5897456d2df') in 0.009276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.006057 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_346.asset
+  artifactKey: Guid(ac15597ef59f44da789a668a60c39828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_346.asset using Guid(ac15597ef59f44da789a668a60c39828) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '09d02d270288e257116bffe447adbaf8') in 0.011472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_348.asset
+  artifactKey: Guid(926a1b4fee5754e6fbc6a09c03e2626f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_348.asset using Guid(926a1b4fee5754e6fbc6a09c03e2626f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e51b902a7186d3f046601a3aff953890') in 0.009423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_364.asset
+  artifactKey: Guid(020e96e6b510648f38989c21e101167e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_364.asset using Guid(020e96e6b510648f38989c21e101167e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '593ffdfba647cabb0e8a7f339bb42dee') in 0.009049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_373.asset
+  artifactKey: Guid(69d0af06c739649d6b869b3b99536ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_373.asset using Guid(69d0af06c739649d6b869b3b99536ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '49f035b692700f04c0c073fb3e0268da') in 0.009271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_381.asset
+  artifactKey: Guid(fb78bcab85cee44ef9803c2bf60466d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_381.asset using Guid(fb78bcab85cee44ef9803c2bf60466d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5e4ce3d9edc99e456cbd4fc4d85d7f0f') in 0.009658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_356.asset
+  artifactKey: Guid(36a6200214ac04ffb9e43c607e67fb24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_356.asset using Guid(36a6200214ac04ffb9e43c607e67fb24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a624c4c97d2d5469ba0fe6b343628542') in 0.010079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_354.asset
+  artifactKey: Guid(661db124c42be450e91d8ed2526f02cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_354.asset using Guid(661db124c42be450e91d8ed2526f02cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a947790837f532fa20f5ce6d611653ac') in 0.011268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.022582 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_372.asset
+  artifactKey: Guid(31fe994fd1bde44d9ac1da0286606f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_372.asset using Guid(31fe994fd1bde44d9ac1da0286606f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd3b36248e8273744d026098ae9827f17') in 0.011517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002445 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_352.asset
+  artifactKey: Guid(be6bc2bd773ad4f36927f0d6ea69253d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_352.asset using Guid(be6bc2bd773ad4f36927f0d6ea69253d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd32ca81aecbce3e36f7515789402dff2') in 0.013971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_362.asset
+  artifactKey: Guid(277fe6fb7a9544232831acdedd068788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_362.asset using Guid(277fe6fb7a9544232831acdedd068788) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b6fea34cf12f597d3c0183c86b1e8ee3') in 0.013401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_349.asset
+  artifactKey: Guid(4932d668c14634bc7a27d9937d56b037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_349.asset using Guid(4932d668c14634bc7a27d9937d56b037) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2acf2ff7b1cbd7e5544dbb483d0b201a') in 0.011118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_355.asset
+  artifactKey: Guid(27516a22054c844c992c1c630d3a12b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_355.asset using Guid(27516a22054c844c992c1c630d3a12b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '895eedfefc3681ca21f7c24bc4d241ba') in 0.010809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_367.asset
+  artifactKey: Guid(6847934e0260c4ad99a7f8d927def32e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_367.asset using Guid(6847934e0260c4ad99a7f8d927def32e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2fc0f29b26739b131c5b38c85c7ce698') in 0.008822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_375.asset
+  artifactKey: Guid(b702f183fa93d4cdd9ecba06e32de55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_375.asset using Guid(b702f183fa93d4cdd9ecba06e32de55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1163d20ba019c478912b62eaf2634a85') in 0.010924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_382.asset
+  artifactKey: Guid(96318d0f617c3453484567971aa7bfa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_382.asset using Guid(96318d0f617c3453484567971aa7bfa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e68b1cb40b5ed7f7571f1a5952a1ecd3') in 0.009554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_368.asset
+  artifactKey: Guid(560a2bc7135694be5a1e7f5b20ff0ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_368.asset using Guid(560a2bc7135694be5a1e7f5b20ff0ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bf8396d3e1af367a82ba41d7380bddec') in 0.009848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_383.asset
+  artifactKey: Guid(0f061640ed98e4670baf0cca21c73915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_383.asset using Guid(0f061640ed98e4670baf0cca21c73915) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a120de7bf71a86c03f4d973b65a81846') in 0.009333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_358.asset
+  artifactKey: Guid(907b1c1823d6f411590ebd4aa14d141c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_358.asset using Guid(907b1c1823d6f411590ebd4aa14d141c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '74c85a1a7a03c19d9465b37feb2ceb97') in 0.012209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_365.asset
+  artifactKey: Guid(cfc77da27cebf46099dd0dd123c64fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_365.asset using Guid(cfc77da27cebf46099dd0dd123c64fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '13685b18eb3b7b8931da2a58331e96bd') in 0.010354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.036543 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_386.asset
+  artifactKey: Guid(4e081bc6c70824d578495b618d077d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_386.asset using Guid(4e081bc6c70824d578495b618d077d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd6a3795f19a04e9c8c3f76400fd79980') in 0.020707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.062645 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_393.asset
+  artifactKey: Guid(c6fb46166ae354d34af6090c52b7d821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_393.asset using Guid(c6fb46166ae354d34af6090c52b7d821) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a11eea985e1dcf5464964c369bcb767d') in 0.007937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.026007 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_407.asset
+  artifactKey: Guid(4018853893c444d60a5ae0d9b22645cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_407.asset using Guid(4018853893c444d60a5ae0d9b22645cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '20cd6fa09cd54256df0a75ab96596d8c') in 0.015868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000711 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_397.asset
+  artifactKey: Guid(0e36d4b5dd37d4c05a565455053ddf98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_397.asset using Guid(0e36d4b5dd37d4c05a565455053ddf98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4101443507281e047083aec296e7fefa') in 0.014520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.025243 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_410.asset
+  artifactKey: Guid(4096e3d6019d34fa083477aae7d64938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_410.asset using Guid(4096e3d6019d34fa083477aae7d64938) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2d3ac558edc75c9a65dc168c2582ac7f') in 0.017147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_392.asset
+  artifactKey: Guid(f53988ddfd0dd44898c2be3876350152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_392.asset using Guid(f53988ddfd0dd44898c2be3876350152) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bdfd2da90659521e66d4e13a6968047c') in 0.014889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.033093 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_400.asset
+  artifactKey: Guid(6a82e9f8458974406ba6c8fa9626446c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_400.asset using Guid(6a82e9f8458974406ba6c8fa9626446c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6ef7dbf831141bb06e14fcdf26ba9a62') in 0.010918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_394.asset
+  artifactKey: Guid(e43c1c3f80b5b4758827f494c4616dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_394.asset using Guid(e43c1c3f80b5b4758827f494c4616dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '49f2f423c37d234e267674d9ff0df9d0') in 0.009893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_389.asset
+  artifactKey: Guid(b887932e322574063a27eda6c84cef15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_389.asset using Guid(b887932e322574063a27eda6c84cef15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00551ec0141c513a5c42f5fe9d689562') in 0.012049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000815 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_388.asset
+  artifactKey: Guid(57ec8a63bd6424908bc883fa7395c030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_388.asset using Guid(57ec8a63bd6424908bc883fa7395c030) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'db2d278ab2f81a77757ad6e432d92992') in 0.011039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.004286 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_413.asset
+  artifactKey: Guid(eca46f43db63d4e09afe04eab02ddb6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_413.asset using Guid(eca46f43db63d4e09afe04eab02ddb6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '85aca863a66c5b1fe130fbf1b1654090') in 0.013887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002469 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_404.asset
+  artifactKey: Guid(43141467c8f7a42f6aae5163924a710d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_404.asset using Guid(43141467c8f7a42f6aae5163924a710d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f00d173f8084a36037b01590243e068a') in 0.011275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000999 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_422.asset
+  artifactKey: Guid(f966840db92974ac5b71885d3efa8d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_422.asset using Guid(f966840db92974ac5b71885d3efa8d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e37de4efb29454b7bb9c21cdb9684de4') in 0.016495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000717 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_417.asset
+  artifactKey: Guid(5adfa498e38ed436a92f79e7ce00159f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_417.asset using Guid(5adfa498e38ed436a92f79e7ce00159f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '21cd19b8d37ad2dfeb28bcd5efada046') in 0.016597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_405.asset
+  artifactKey: Guid(40b98d48d0d9747418fdd8ae0189530d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_405.asset using Guid(40b98d48d0d9747418fdd8ae0189530d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1d48fe740c99b524421250711596775c') in 0.011934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_415.asset
+  artifactKey: Guid(244b04cb22a81449aa31098379aed19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_415.asset using Guid(244b04cb22a81449aa31098379aed19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '877d33d1e77d95f9b31d34947ad35fef') in 0.014934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_412.asset
+  artifactKey: Guid(9e9b4bd9c334a4c67b656fec2d9cc8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_412.asset using Guid(9e9b4bd9c334a4c67b656fec2d9cc8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9d319566a77e4a78664de4c4c7b3526e') in 0.011100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_402.asset
+  artifactKey: Guid(e137f3bd12e49418eb6bd5472bf32b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_402.asset using Guid(e137f3bd12e49418eb6bd5472bf32b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6ebcac3b47af8bdf0388747958456423') in 0.009759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_403.asset
+  artifactKey: Guid(0cbb6c011fa464c838afefd33f8707dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_403.asset using Guid(0cbb6c011fa464c838afefd33f8707dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8eefe23458b03321efef4244441bd54b') in 0.011747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_401.asset
+  artifactKey: Guid(968ffe95e1c034e51a55f746bb2708f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_401.asset using Guid(968ffe95e1c034e51a55f746bb2708f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '33ff0278078650ecd241608dac9f3cf1') in 0.010266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.011508 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_426.asset
+  artifactKey: Guid(1b78884aec76747c9adb75840cc07315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_426.asset using Guid(1b78884aec76747c9adb75840cc07315) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '521b7e838883005322edb01bb1e11e96') in 0.008751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_428.asset
+  artifactKey: Guid(12f77e88500794ce8a95e7425c212dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_428.asset using Guid(12f77e88500794ce8a95e7425c212dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1b84963646fb7b60f85ac17f50f9bb74') in 0.013741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001324 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_453.asset
+  artifactKey: Guid(626730df75be449708da3bc8a590f26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_453.asset using Guid(626730df75be449708da3bc8a590f26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1de8d6aff8e654521f70934d173a3203') in 0.009489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_465.asset
+  artifactKey: Guid(ed9188686ed8346b0953ac53577cb68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_465.asset using Guid(ed9188686ed8346b0953ac53577cb68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2d68740033af758e6d2ec6a417c8fd1d') in 0.010249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_449.asset
+  artifactKey: Guid(1f68d374fc8e748c2833b47d174d6c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_449.asset using Guid(1f68d374fc8e748c2833b47d174d6c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e3548d0b2faf32b0a9064b724516fd41') in 0.012048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_464.asset
+  artifactKey: Guid(37e80003d3bad4f26a6b302f0c1dc54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_464.asset using Guid(37e80003d3bad4f26a6b302f0c1dc54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '10002515c42fb0b81c147b9e54914025') in 0.010485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_451.asset
+  artifactKey: Guid(ebb4ef539d59c4409b3b789f280cf316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_451.asset using Guid(ebb4ef539d59c4409b3b789f280cf316) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3cb10f65f8c62c70ec1b5749c5f729db') in 0.010746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_454.asset
+  artifactKey: Guid(41c3b81a31f2640a0953b995e4da44bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_454.asset using Guid(41c3b81a31f2640a0953b995e4da44bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f5daf8c7ff196eb48d0d2d645ce683fc') in 0.009607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_443.asset
+  artifactKey: Guid(ea0c8b9e122bd4ac6b15984fd78272fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_443.asset using Guid(ea0c8b9e122bd4ac6b15984fd78272fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3f9186a6363e255fed55aa5fda927ad9') in 0.010260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_447.asset
+  artifactKey: Guid(cff1e264f886e4232a119c436b4356aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_447.asset using Guid(cff1e264f886e4232a119c436b4356aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b464369312a33f157147edb49b537d1e') in 0.012975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_437.asset
+  artifactKey: Guid(e1e51c6463d6a44c08da006cc25405a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_437.asset using Guid(e1e51c6463d6a44c08da006cc25405a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f861bfd44afeb6167ab9e687b493d1d8') in 0.009487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_444.asset
+  artifactKey: Guid(7a5efcc9805544f4b8c160261cef5208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_444.asset using Guid(7a5efcc9805544f4b8c160261cef5208) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a077e8bf222a94f475b7a3d3db67d442') in 0.010260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_441.asset
+  artifactKey: Guid(29e4b67c94ca5481d8b0c14cec9e5341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_441.asset using Guid(29e4b67c94ca5481d8b0c14cec9e5341) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e39bb020d990a2f9946c79eee588db9f') in 0.010171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000573 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_457.asset
+  artifactKey: Guid(1be0f5cb9d0374c6793c645d570bcabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_457.asset using Guid(1be0f5cb9d0374c6793c645d570bcabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'fe61175485a101c595a7d9ea0bd4f3bd') in 0.011510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_432.asset
+  artifactKey: Guid(5c9344a82618348c2bd7ce49103606c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_432.asset using Guid(5c9344a82618348c2bd7ce49103606c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '944d31946eded280f1a20049fac482c4') in 0.008470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000549 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_459.asset
+  artifactKey: Guid(028bf99153d67403ab6eb3fb19b71e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_459.asset using Guid(028bf99153d67403ab6eb3fb19b71e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bcf559acd4e72ee237c3f71ba06a63af') in 0.012193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_458.asset
+  artifactKey: Guid(f890095e58a5b4322a0fef7a3cffcc93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_458.asset using Guid(f890095e58a5b4322a0fef7a3cffcc93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '79ed5c5f5499b8bd8f0b81431306c543') in 0.010803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_456.asset
+  artifactKey: Guid(81a5529bf009946c8a7a3e6becb10605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_456.asset using Guid(81a5529bf009946c8a7a3e6becb10605) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5201b8104b164d79a6302e08231bfb56') in 0.019444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002069 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_436.asset
+  artifactKey: Guid(e6719a810a2f940ddb5c98094c15e5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_436.asset using Guid(e6719a810a2f940ddb5c98094c15e5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '655406fec3418fd6dc3fa112843e1da0') in 0.012049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.003083 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_448.asset
+  artifactKey: Guid(166fbd331b40141e3ad2c09f8bea1e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_448.asset using Guid(166fbd331b40141e3ad2c09f8bea1e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '985b73c95be00d903aee2db08bb863c3') in 0.012004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001212 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_429.asset
+  artifactKey: Guid(42a7c196ea0f6403f9b299cb73537c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_429.asset using Guid(42a7c196ea0f6403f9b299cb73537c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '846b85e1411eee06e08ad1f30f00e7e3') in 0.011550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001999 seconds.
+  path: Assets/Environment/Sprites/Mountain_Environments_460.asset
+  artifactKey: Guid(ea6e4977f73064e25902b53c5e696ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Mountain_Environments_460.asset using Guid(ea6e4977f73064e25902b53c5e696ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'df7a36e453f0f07c91a6d4e2851ea6c9') in 0.012191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.346014 seconds.
+  path: Assets/Environment/Sprites/Tileset Template_Environments_61.asset
+  artifactKey: Guid(7e12dd12c28a649e4a325b07add3d356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Tileset Template_Environments_61.asset using Guid(7e12dd12c28a649e4a325b07add3d356) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ce4cd38e386b18e7ca642c05307e7ccd') in 0.012329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Environment/Sprites/Tileset Template_Environments_73.asset
+  artifactKey: Guid(363f26c9812ea4b57ab6c3ea9830fc5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Tileset Template_Environments_73.asset using Guid(363f26c9812ea4b57ab6c3ea9830fc5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '31eca66dca59fe69498a991be9a84aac') in 0.011419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Environment/Sprites/Tileset Template_Environments_67.asset
+  artifactKey: Guid(b76f4b3c45c5e4f0984690dd148806a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Tileset Template_Environments_67.asset using Guid(b76f4b3c45c5e4f0984690dd148806a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9123b55213c2fe25407c68e0557a750c') in 0.009940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.032998 seconds.
+  path: Assets/Environment/Sprites/Tileset Template_Environments_70.asset
+  artifactKey: Guid(e40007711e97a4d378f752c736f9b44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Tileset Template_Environments_70.asset using Guid(e40007711e97a4d378f752c736f9b44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2957c19448a6eb8e97fed63c624ce239') in 0.009451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Environment/Sprites/Tileset Template_Environments_63.asset
+  artifactKey: Guid(e9d1dc069f3314efd8775285bcd6334c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Tileset Template_Environments_63.asset using Guid(e9d1dc069f3314efd8775285bcd6334c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2966b3e26cc0f5a04f8d98f4275dc9ca') in 0.009458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Environment/Sprites/Tileset Template_Environments_64.asset
+  artifactKey: Guid(406399bae2b9749f98b7bc1228ad36f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Tileset Template_Environments_64.asset using Guid(406399bae2b9749f98b7bc1228ad36f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ed117450aaff620ac99c2dd7b331797d') in 0.010700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Environment/Sprites/Tileset Template_Environments_74.asset
+  artifactKey: Guid(167c93ebf3a834f03af75243b688a34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Tileset Template_Environments_74.asset using Guid(167c93ebf3a834f03af75243b688a34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b6411f1069db48048bbe53d4a15ecb69') in 0.011813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Environment/Sprites/Tileset Template_Environments_62.asset
+  artifactKey: Guid(e800f8c51e3af446c949d93748c38b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Tileset Template_Environments_62.asset using Guid(e800f8c51e3af446c949d93748c38b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'fe30b41b2086199b4f5e08b948b4409c') in 0.010387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.147115 seconds.
+  path: Assets/Environment/Sprites/Tileset Template_Environments_76.asset
+  artifactKey: Guid(7c6520f7545e24a8f9195ccf4ae1fe98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Tileset Template_Environments_76.asset using Guid(7c6520f7545e24a8f9195ccf4ae1fe98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '09b47de29a5818612d556fd77292c1ee') in 0.009379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Environment/Sprites/Tileset Template_Environments_77.asset
+  artifactKey: Guid(20b12b33720df4d66ae1dd4a2b2cecd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Tileset Template_Environments_77.asset using Guid(20b12b33720df4d66ae1dd4a2b2cecd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '70e02c85192eaefe681f7560e991453b') in 0.009386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.485018 seconds.
+  path: Assets/Environment/Sprites/Tileset Template_Environments_124.asset
+  artifactKey: Guid(d06098dd372984fa5b383c89f50de83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Tileset Template_Environments_124.asset using Guid(d06098dd372984fa5b383c89f50de83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '77f37c4a4a21816de965f84df9fcac54') in 0.009830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Environment/Sprites/Tileset Template_Environments_127.asset
+  artifactKey: Guid(50e72df2255774aa088729b7ccef2f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Tileset Template_Environments_127.asset using Guid(50e72df2255774aa088729b7ccef2f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0dd68d7742c0f704e1dc1d20cb987174') in 0.010794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Environment/Sprites/Tileset Template_Environments_130.asset
+  artifactKey: Guid(f832e240aebe247428714be0baf37244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Tileset Template_Environments_130.asset using Guid(f832e240aebe247428714be0baf37244) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7c9c0f6b5c59531c72985ef4ad081884') in 0.011872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Environment/Sprites/Tileset Template_Environments_133.asset
+  artifactKey: Guid(3505da39bab5143f5a0d7078d30b95a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Tileset Template_Environments_133.asset using Guid(3505da39bab5143f5a0d7078d30b95a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5d4aa4e367ce5b5c966463d268556319') in 0.009958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000503 seconds.
+  path: Assets/Environment/Sprites/Tileset Template_Environments_131.asset
+  artifactKey: Guid(ee35b21e820a147f8b50a10184f93bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Tileset Template_Environments_131.asset using Guid(ee35b21e820a147f8b50a10184f93bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b1ad2449cae4a80e8de9c0030ae1a6b0') in 0.011719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001551 seconds.
+  path: Assets/Environment/Sprites/Tileset Template_Environments_129.asset
+  artifactKey: Guid(b9d35918a8f064e9a99688bfd8b52a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Tileset Template_Environments_129.asset using Guid(b9d35918a8f064e9a99688bfd8b52a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5685e9a758d501542c1e800f06f66838') in 0.011419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.081192 seconds.
+  path: Assets/Environment/Sprites/Tileset_Template_BlackBox_1.asset
+  artifactKey: Guid(1040a5ce1ce8c4d56b6ecf590ebe53b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Tileset_Template_BlackBox_1.asset using Guid(1040a5ce1ce8c4d56b6ecf590ebe53b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '273910b0daba57501c1ba8a684988301') in 0.011529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.010986 seconds.
+  path: Assets/Environment/Sprites/Tileset_Template_BlackBox_3.asset
+  artifactKey: Guid(aa611921cd02244f2b7f1a4231d1c850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Tileset_Template_BlackBox_3.asset using Guid(aa611921cd02244f2b7f1a4231d1c850) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f3dd043d8a94ccc395d50de1d569ceb1') in 0.006602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Environment/Sprites/Tileset_Template_BlackBox_4.asset
+  artifactKey: Guid(48c45cc100e4d41529002d956b2e8668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Tileset_Template_BlackBox_4.asset using Guid(48c45cc100e4d41529002d956b2e8668) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '82ab49869dd6f606ef88441a591d951c') in 0.008758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/Environment/Sprites/Tileset_Template_GreyBox_2.asset
+  artifactKey: Guid(d6f3fa0d22822491da7e14c4183ae077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Tileset_Template_GreyBox_2.asset using Guid(d6f3fa0d22822491da7e14c4183ae077) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6be5d5725ea4eb2c51567586e7dd869e') in 0.009622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000804 seconds.
+  path: Assets/Environment/Sprites/Tileset_Template_BlackBox_8.asset
+  artifactKey: Guid(e914b7fdb2d024b6b8d8ea186531f2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Tileset_Template_BlackBox_8.asset using Guid(e914b7fdb2d024b6b8d8ea186531f2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4d759347a1fa0ec33d880bfdad0c57be') in 0.008643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001154 seconds.
+  path: Assets/Environment/Sprites/Tileset_Template_BlackBox_5.asset
+  artifactKey: Guid(a7e640eb8fdb14c0ea733139eff67b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Tileset_Template_BlackBox_5.asset using Guid(a7e640eb8fdb14c0ea733139eff67b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '63234c47a771311b132079b1ef1c6759') in 0.011517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Environment/Sprites/Tileset_Template_GreyBox_4.asset
+  artifactKey: Guid(3ff7776bc249b4d15a99ea8304e6a791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Tileset_Template_GreyBox_4.asset using Guid(3ff7776bc249b4d15a99ea8304e6a791) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '036937a0f306eb7c180361893e711b83') in 0.008039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000422 seconds.
+  path: Assets/Environment/Sprites/Tileset_Template_BlackBox_9.asset
+  artifactKey: Guid(bceeea4eb03ab4e3ab2a5f5066d21fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Tileset_Template_BlackBox_9.asset using Guid(bceeea4eb03ab4e3ab2a5f5066d21fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7e8a21d0e1320b2f687368374a8b9e60') in 0.008032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Environment/Sprites/Tileset_Template_GreyBox_0.asset
+  artifactKey: Guid(32924529b2eaf4aa18f4392d6f52370f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Sprites/Tileset_Template_GreyBox_0.asset using Guid(32924529b2eaf4aa18f4392d6f52370f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8189df9e368a3c1d0bbe5c39843e3ed2') in 0.008894 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
